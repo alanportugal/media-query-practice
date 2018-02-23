@@ -10,3 +10,7 @@ a:after {
 .container, article {
   width: 100%;
 }
+
+@media (min-aspect-ratio: 2/1) {
+  h1 { color: red; }
+}
